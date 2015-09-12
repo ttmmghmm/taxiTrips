@@ -1,3 +1,5 @@
+print(.libPaths())
+
 if (!require(dplyr)) install.packages('dplyr', dep = TRUE)
 
 library(lubridate)
