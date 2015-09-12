@@ -1,4 +1,4 @@
-library(dplyr)
+if (!require(dplyr)) install.packages('dplyr')
 library(lubridate)
 library(BH)
 taxiData <- read.csv('tripData.csv', stringsAsFactors = FALSE)
